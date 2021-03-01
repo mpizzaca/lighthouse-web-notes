@@ -1,0 +1,1 @@
+Useful collection of [Markdown Tips](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
