@@ -3,7 +3,7 @@
 ### Function Declaration
 ```javascript
 function someFunction() {
-
+  // do something
 }
 ```
 - hoisted (ie. can call the function above its declaration)
@@ -12,11 +12,12 @@ function someFunction() {
 ### Function expression
 ```javascript
 const someOtherFunction = function() {
-
+  // do something
 }
 ```
 - not hoisted (ie. cannot call the function above it's declaration)
 - will throw a SyntaxError if you try to overwrite the function expression or a TypeError if you try to reassign the const variable to a new function
+- safer to use function expressions as a result
 
 
 ## Summary
