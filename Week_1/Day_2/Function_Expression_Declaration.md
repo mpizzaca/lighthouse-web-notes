@@ -20,4 +20,4 @@ const someOtherFunction = function() {
 
 
 ## Summary
-- Should always use Function Expressions, with the exception of exporting functions in React (as you can use `export default` in one line with Function Declaration only)
+- Should always use Function Expressions, with the exception of exporting functions in React (as you can use `export default` in one line with Function Declarations only)
