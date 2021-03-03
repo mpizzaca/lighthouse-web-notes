@@ -23,19 +23,19 @@ obj.car === 'Honda';
 ```javascript
 for (let i in array)
 ```
-- `i` will hold the index of the element
+- `i` will hold the index of the current array element
 
 ```javascript
 for (let elem of array)
 ```
-- `elem` will hold the value of the element 
+- `elem` will hold the value of the current array element 
 
 
 #### Objects
 ```javascript
 for (let key in object)
 ```
-- `key` will hold the key value of the object
+- `key` will hold the key value of the current object element
 ```javascript
 for (let key of object)
 ```
