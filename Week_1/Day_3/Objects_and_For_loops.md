@@ -17,7 +17,7 @@ obj[key] === 'Honda';
 obj.car === 'Honda';
 ```
 
-### `for of` vs `for in`
+### `for..of` vs `for..in`
 #### Arrays
 
 ```javascript
@@ -43,11 +43,11 @@ for (let key of object)
 #
 ### Looping through Objects
 - many different ways of looping through an object
-1) Most basic: for..in
+1) Most basic: `for..in`
 ```javascript
 for (let key in users)
 ```
-2) Converting the key/value pairs to an array type with Object.keys, .values, .entries
+2) Converting the key/value pairs to an array type with `Object.keys()`, `.values()`, `.entries()`
 ```javascript
 const users = {
   1: John,
